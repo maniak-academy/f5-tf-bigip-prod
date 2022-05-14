@@ -1,12 +1,12 @@
 variable "bigipmgmt" {
   description = "bigipmgmt"
-  default     = ""
+  default     = "192.168.86.33"
 }
 variable "bigipmgmtuser" {
   description = "bigipmgmtuser"
-  default     = ""
+  default     = "admin"
 }
 variable "bigippass" {
   description = "bigippass"
-  default     = ""
+  default     = "W3lcome098!"
 }
