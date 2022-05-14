@@ -3,7 +3,7 @@ terraform {
     organization = "sebbycorp"
 
     workspaces {
-      name = "f5-tf-bigip-nonprod"
+      name = "f5-tf-bigip-prod"
     }
   }
   required_providers {
