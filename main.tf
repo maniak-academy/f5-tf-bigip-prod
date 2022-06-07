@@ -25,7 +25,7 @@ provider "bigip" {
 data "template_file" "init" {
   template = file("bigip.tpl")
   vars = {
-    HOSTNAME         = "bigip-prod.maniak.academy"
+    HOSTNAME         = "bigip-prod1.maniak.academy"
     DNS_ADDRESS      = "8.8.8.8"
     NTP_ADDRESS      = "8.8.8.8"
     GUEST_PASSWORD   = "W3lcome098!"
